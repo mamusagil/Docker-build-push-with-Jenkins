@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
- //       git([url: 'https://github.com/Docker-build-push-with-Jenkins.git', branch: 'main', credentialsId: 'mamusagil-github-user-token'])
+ //       git([url: 'https://github.com/devops-main.git', branch: 'main', credentialsId: 'mamusagil-github-user-token'])
  	checkout scm
       }
     }
